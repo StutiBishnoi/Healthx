@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="Nav.css" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>   
+      <div class="topnav" id="myTopnav">
+      <a href="Index.html">Home</a>
+      <a href="#Diet" class="active">Diet</a>
+      <a href="exercises.html">Fitness</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
+        <h1 class="title">Balanced Diet</h1>
+        <img class="image-1" src="diet.jpg" style="float: right;" width="400px">
+        <h3 class="text">What is a Balanced Diet</h3>
+        <p class="para">A balanced diet gives your body the nutrients it needs to function correctly.</p>
+        <p class="para">Eating a balanced diet is key in maintaining good health and keeping your body in optimum condition. A balanced diet doesn't cut out food groups; it consists of a wide variety of foods to support your body and keep you energised, motivated and healthy.</p>
+        <h3 style="font-size: 50px; text-align: center;">Here's the diet plan for every human being</h2>
+        <h3 class="text">For Ages 1 to 11</h3>
+        <div  style="overflow-x:auto;">
+        <table style="width:100%">
+            <tr>
+              <th>Cereals</th>
+              <th>Fruits</th> 
+              <th>Proteins</th>
+              <th>Dairy</th>
+              <th>Vegetables</th>
+              <th>Fats</th>
+              <th>Treats</th>
+            </tr>
+            <tr>
+              <td>1/2 cup of rice or pasta</td>
+              <td>1 piece of fresh fruit</td>
+              <td>1/2 cup dried beans/legumes that have been cooked</td>
+              <td>1/2 to 3/4 cup</td>
+              <td>1/2 cup</td>
+              <td> 1 tablespoon </td>
+              <td>4 to 5 servings weekly</td>
+            </tr>
+            <tr>
+              <td>2 slices of bread</td>
+              <td>1/2 cup juice</td>
+              <td>1/2 cup of paneer</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>30g of dry cereal</td>
+              <td> </td>
+              <td>30g of cheese</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+          </table> </div>
+          <br>
+          <br>
+          <h3 class="text">For Ages 11 to 18</h3>
+          <div  style="overflow-x:auto;">
+          <table style="width:100%">
+              <tr>
+                <th>Bread/Starches</th>
+                <th>Fruits</th> 
+                <th>Proteins</th>
+                <th>Dairy</th>
+                <th>Vegetables</th>
+                <th>Fats</th>
+                <th>Treats</th>
+              </tr>
+              <tr>
+                <td>1 bagel or muffin</td>
+                <td>1 piece of fresh fruit</td>
+                <td>3/4 to 1 cup dried beans/legumes that have been cooked</td>
+                <td> 1 cup lowfat milk or yogurt.</td>
+                <td>2 cups salad greens</td>
+                <td> 6 almonds or 10 peanuts</td>
+                <td>7-8 servings weekly</td>
+              </tr>
+              <tr>
+                <td>1/2 cup cooked cereal, pasta, potatoes, or rice</td>
+                <td>15 to 20 grapes</td>
+                <td>1/2 cup of paneer</td>
+                <td> </td>
+                <td>1/2 cup cooked or 1 cup raw vegetable </td>
+                <td>1 tsp oil, margarine, mayonnaise, or butter</td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>2 slices bread</td>                
+                <td>1/2 cup canned fruit or fruit juice</td>
+                <td>1 egg</td>
+                <td> </td>
+                <td>1 cup vegetable or tomato juice</td>
+                <td>1 Tbsp salad dressing</td>
+                <td> </td>
+              </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <h3 class="text">Sample Menu for Adults</h3>
+    <div style="overflow-x:auto;">
+    <table style="width:100%">
+        <tr>
+            <th>Meal</th>
+            <th>Food</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Early morning</td>
+            <td>Milk with sugar or tea</td>
+            <td>1 cup</td>
+        </tr>
+        <tr>
+            <TD>Breakfast</TD>
+            <td>Egg with bread or paratha with curd, coffee</td>
+            <td>1 egg, 2 bread, 2 paratha, 1 cup</td>
+        </tr>
+        <tr>
+            <td>Mid-day</td>
+            <td>Fruit chatt or fruit juice or Tea with biscuits</td>
+            <td>1 cup, 4-6</td>
+        </tr>
+        <tr>
+            <td>Lunch</td>
+            <td>Vegetables, Chapati, Rice, Curd, Salad</td>
+            <td>1 bowl, 2, 1 plate, 1 bowl, mixed</td>
+        </tr>
+        <tr>
+            <td>Evening Tea</td>
+            <td>Tea with snacks</td>
+            <td>1 cup</td>
+        </tr>
+        <tr>
+            <td>Dinner</td>
+            <td>Dal/Pulses, Vegetable, Chapati</td>
+            <td>1 bowl, 1 bowl, 3</td>
+        </tr>
+        <tr>
+            <td>Bed-Time</td>
+            <td>Kheer/dessert</td>
+            <td>1 bowl</td>
+        </tr>
+    </table> </div>
+    </body>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += "responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+</html>

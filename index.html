@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="Nav.css" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="Diet.html">Diet</a>
+            <a href="exercises.html">Fitness</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <h1 class="title">HEALTHX</h1> <img class="image-1" src="index.jpg" style="float: right;" width="700px">
+        <h3 class="text">What is health?</h3>
+        <p class="para">“Health” in terms of definitions for humans means a state of the body that is totally free from any illness or injury. Being healthy should be a part of our lifestyle as a whole. Good health and a happy mind are priceless possessions that one can have. If one is healthy, he or she can always work on getting wealth, however, wealth without good health is useless.</p>
+       
+        <P class="para">Health is not just about what you are eating or how you physically appear to be. It’s also about what you are displaying in your behaviour, manifesting in your thoughts and speaking in your words. In today’s era there is so much competition at every step in life where everyone wants to outperform the others, be it at school or office. Students start running this rat race since children where they fail to recognize the fact that their health comes first.</P>
+        <p class="para">Watch the video below, to understand the importance:-</p>
+  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/_HEnohs6yYw" class ="video-1"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe></center>  
+    </body>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += "responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</html>
